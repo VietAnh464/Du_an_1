@@ -1,0 +1,1 @@
+<img src="../img/banner-admin.jpg" alt="" width="85%">

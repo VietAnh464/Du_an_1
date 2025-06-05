@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #FEF4DF;
+   
+}
+
+.list_danhmuc li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 50px;
+    padding-left: 40px;
+    font-size: larger;
+    
+}
+.dropdown button{
+   background-color: #FFBFB1;
+   border: none;
+   outline: none;
+}
+.list_danhmuc ul li a{
+    text-decoration: none;
+    color: #2A2A86;
+    margin-bottom: 5px;
+   position: relative;
+}
+
+.list_danhmuc ul li a::after {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    content: '';
+    height: 2px;
+    background-color: #ffc107; /* Change to your desired color */
+    bottom: -5px; /* Position at the bottom */
+    left: 0; /* Align with the left edge of the text */
+    transform: scaleX(0); /* Initially hidden */
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+  }
+
+.list_danhmuc ul li a:hover::after {
+  
+    transform: scaleX(1); /* Show underline on hover */
+  }
+
+main{
+
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 50px;
+}
+.header_tren{
+    display: flex;
+    
+}
+.logo{
+    padding: 20px 0px;
+}
+.search{
+    padding-top: 23px;
+    
+    width: 600px;
+    margin-left: 30px;
+}
+.search form input[type="text"]{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px 0px 0px 10px;
+    border-color: white;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+.search form input[type="text"]:hover{
+  
+     border: 1px solid #F7AC17;
+    border-radius: 10px 0px 0px 10px;
+}
+.search form input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #F7AC17;
+}
+.SDT{
+    padding-top: 27px;
+    color: #2A2A86;
+}
+
+.slide_show img{
+    width: 100%;
+    height: 500px;
+   object-fit: cover;
+}
+.container{
+    max-width: 1200px;
+   
+}
+.san_pham_tong{
+    width: 100%;
+    margin-top: 20px;
+}
+.product{
+    text-align: center;
+}
+.product img {
+    width: 250px;
+    margin-bottom: 10px;
+
+  
+}
+.product img:hover {
+    
+   transform: scale(1.1);
+   transition-property: transition;
+  
+}
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+.chay_hang{
+    border: 1px solid black;
+    background-color:  #F23601;
+    background-image: linear-gradient(to right , #F23601, #F7AC17 );
+    border-width: 100%;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 50px;
+}
+
+.BST{
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.item_BST{
+
+    width: 100%;
+}
+.BST img{
+   width: 100%;
+   height: 100%;
+}
+footer{
+    /* margin-top: 50px; */
+    background-color: blue;
+}
+
+
+/* chi tiet san pham */
+.box_comment{
+    
+    height: 200px;
+    
+}
+.content_comment{
+    width: 80%;
+    font-weight: bold;
+}
+
+.form_binhluan{
+    margin-top: 0;
+   
+}
+.form_binhluan input[type="text"]{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: black;
+}
+.form_binhluan input[type="submit"] {
+    transition-duration: 0.4s;
+    height: 30px;
+    width: 8%;
+    border-radius: 5px;
+    border-color: black;
+  }
+  
+  .form_binhluan input[type="submit"]:hover {
+    background-color:black; /* Green */
+    color: white;
+  }
+.product-content-left{
+    flex: 1;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.product-content-left-big-img{
+    width: 80%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.product-content-left-big-img img{
+    width: 100%;
+}
+.product-content-left-smail-img{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.product-content-left-smail-img img{
+    margin-bottom: 10px;                    
+    width: 100%;
+    align-self: flex-start;
+}
+.product-content-right{
+    flex: 1;
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.product-content-right-product-name h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+.product-content-right-product-name p{
+    color: #cccccc;
+    font-size: 12px;
+}
+.product-content-right-product-price{
+    margin: 12px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product-content-right-product-color img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.product-content-right-product-color-img{
+   height: 40px;
+   width: 40px;
+   border: 1px solid #333;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 12px 0;
+}
+.size span{
+    display: inline-block;
+    padding: 3px 6px;
+    border: 1px solid black;
+    margin: 12px 10px 12px 0;
+    font-size: 12px;
+    cursor: pointer;
+}
+.quantity{
+    display: flex;
+    margin-bottom: 20px;
+}
+.quantity input{
+    width: 35px;
+    padding-left: 3px;
+}
+.product-content-right-product-button button{
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin: 20px 0 12px;
+    transition: all 0.3s ease;
+}
+.product-content-right-product-button button:first-child{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #cccccc;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.product-content-right-product-button button:first-child:hover{
+    background-color: black;
+    color: white;
+}
+.product-content-right-product-button button:last-child{
+    border: 2px solid #BF8A49;
+    color: #BF8A49;
+    background-color: #ffff;
+    cursor: pointer;
+}
+.product-content-right-product-icon{
+    display: flex;
+}
+.product-content-right-product-icon-item{
+    display: flex;
+    margin-right: 12px;
+    align-items: center;
+}
+.product-content-right-product-icon-item{
+    display: flex;
+    margin-right: 12px;
+    align-items: center;
+}
+.product-content-right-product-icon-item i{
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+/* spchi tiết */
+.td_sp{
+    text-align: center;
+    text-transform: uppercase;
+    color: orange;
+}
+.header_sp{
+    padding: 20px;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+.header_sp button:nth-child(1){
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    border: 1px solid grey;
+}
+.header_sp button:nth-child(2){
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    border: 1px solid grey;
+}
+.header_sp button:nth-child(3){
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    border: 1px solid grey;
+    
+}
+.header_sp button:nth-child(4){
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    border: 1px solid grey;
+}
+.header_sp button:nth-child(5){
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    border: 1px solid grey;
+}
+.header_sp button:nth-child(6){
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    border: 1px solid grey;
+}
+
+.header_sp button:hover:nth-child(1),
+.header_sp button:hover:nth-child(2),
+.header_sp button:hover:nth-child(3),
+.header_sp button:hover:nth-child(4),
+.header_sp button:hover:nth-child(5),
+.header_sp button:hover:nth-child(6){
+    background-color: orange;
+
+}
+
+/* blog */
+.cart{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding-bottom: 30px;
+    
+}
+.cart .card-jt{
+    border: 1px solid gray;
+    margin: 0 10px;
+    
+}
+.cart .card-jt .card-jt-blog img{
+    width: 100%;
+   
+}
+.cart .card-jt .card-jt-content{
+    margin: 10px;
+}
+
+/* sp-quan */

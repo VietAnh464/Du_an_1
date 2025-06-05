@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position-y: -80px;
+    font-size: 16px;
+    width: 100%;
+   
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#form-login{
+    max-width: 600px;
+    background: #f2f2f2;
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+   
+}
+.form-heading{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.page-signup-title{
+    font-weight: 700;
+    font-family: 'SVN-Gilroy Bold';
+}
+.page-signup-title-yellow {
+    color: #fcaf17;
+}
+.page-signup-title-darkblue{
+    color: #151560;
+}
+.form-group{
+    border: 1px solid #000000;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    max-width: 428px;
+    margin-left: 53px;
+    height: 45px;
+}
+.form-group i{
+    color: #292626;
+    font-size: 14px;
+    padding: 16px 5px 0 10px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #000000;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: #000000;
+}
+#eye i{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.form-submit{
+    background: #eca407;
+    border: 1px solid #000000;
+    color: #ffffff;
+    width: 80%;
+    height: 50px;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.form-submit:hover{
+    border: 1px solid #54a0ff;
+
+}
+h6{
+    color: rgb(0, 0, 0);
+    padding-top: 60px;
+    text-align: center;
+}
+a{
+    text-decoration-line: none;
+    color: #cb6b04;
+}
+.register{
+    text-align: center;
+}
+.forgot{
+    margin-top: -30px;
+}
+.bg-white{
+    height: 48px; 
+    width: 120px; 
+    border: 1px solid rgb(240, 240, 240); 
+    border-radius: 500px;
+}
+.page-signup-social-wrapper{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.page-signup-social {
+    display: inline-block; /* sử dụng inline-block để các phần tử nằm trên cùng một dòng */
+    margin-right: 10px; /* tạo khoảng cách giữa các phần tử */
+}
+

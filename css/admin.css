@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(80, 156, 218);
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0;
+}
+article{
+    background-color: rgb(122, 150, 240);
+    float: left;
+   width: 15%;
+   text-align: center;
+   height: 1200px;
+   
+}
+.menu ul{
+    padding-right: 20px;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 40px 0px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover{
+    
+    color: white;
+    
+}
+.menu ul li a:active{
+    text-decoration: underline;
+    color: white;
+    
+}
+aside{
+    
+    float: right;
+    width: 85%;
+    height: 600px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+aside table{
+    width: 100%;
+   text-align: center;
+   
+}
+aside table tr{
+    border-bottom: 1px solid rgb(41, 38, 38);
+    
+}
+#nut_sua{
+    background-color: yellow;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: none;
+}
+#nut_xoa{
+    background-color: red;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: none;
+}
+#nut_danhsach{
+    background-color: yellow;
+    margin-top: 5px;
+    color: black;
+    padding: 4px 24px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+}
+#nut_them{
+    background-color: #A5F935;
+    margin-top: 5px;
+    color: white;
+    padding: 4px 24px;
+    border-radius: 10px;
+    border: none;
+}
+aside table tr td {
+    padding: 10px 0px;
+}
+footer{
+    clear: both;
+}

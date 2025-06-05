@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #FEF4DF;
+   
+}
+
+
+.list_danhmuc li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 50px;
+    padding-left: 30px;
+    font-size: larger;
+    
+}
+.list_danhmuc ul li a{
+    text-decoration: none;
+    color: #2A2A86;
+    margin-bottom: 5px;
+   position: relative;
+}
+.list_danhmuc ul li a::after {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    content: '';
+    height: 2px;
+    background-color: #ffc107; /* Change to your desired color */
+    bottom: -5px; /* Position at the bottom */
+    left: 0; /* Align with the left edge of the text */
+    transform: scaleX(0); /* Initially hidden */
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+  }
+
+.list_danhmuc ul li a:hover::after {
+  
+    transform: scaleX(1); /* Show underline on hover */
+  }
+
+main{
+
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+.header_tren{
+    display: flex;
+    
+}
+.logo{
+    padding: 20px 0px;
+}
+.search{
+    padding-top: 23px;
+    
+    width: 600px;
+    margin-left: 30px;
+}
+.search form input[type="text"]{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px 0px 0px 10px;
+    border-color: white;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+.search form input[type="text"]:hover{
+  
+     border: 1px solid #F7AC17;
+    border-radius: 10px 0px 0px 10px;
+}
+.search form input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #F7AC17;
+}
+
+          /* cart */ 
+
+/* mation */
+.synthetic-cart .modal-body .mation-tt{
+  display: flex;
+  margin: 20px;
+}
+.synthetic-cart .modal-body .mation-tt span:nth-child(1){
+  padding-right: 50px;
+  
+}
+.synthetic-cart .modal-body .mation-te div:nth-child(1){
+    background-color: #dedee4;
+    margin: 20px;
+    padding: 6px;
+    border-radius: 12px;
+    height: 35px;
+}
+.synthetic-cart .modal-body .mation-te div:nth-child(2){
+  background-color:#dedee4;
+  margin: 20px;
+  padding: 6px;
+  border-radius: 12px;
+  height: 35px;
+}
+
+
+
+  
+.synthetic-cart{
+  display: flex;
+  padding: 70px;
+  /* background-color: #F8F8F8; */
+}
+.synthetic-cart .modal-body{
+  background-color: #F0F0F0;
+  padding: 10px;
+
+  
+}
+.synthetic-cart .modal-body .cart-row{
+  display: flex;
+}
+.cart-row {
+  display: flex;
+  margin: 20px;
+  padding-top: 20px;
+}
+
+.cart-item {
+  width: 35%;
+  display: flex;
+}
+.cart-price {
+  width: 20%;
+  /* font-size: 1.1em; */
+  color: #333;
+  /* margin-left: 27%; */
+  text-align: center;
+}
+
+/* .cart-quantity {
+  width: 20%;
+} */
+
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
+  width: 66%;
+  
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  
+}
+.btn-danger {
+  color: white;
+  background-color: #EB5757;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+  
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+/* nút xóa */
+.cart-delette{
+     margin-left: 10%;
+    
+    margin-top: 2.7%;
+}
+
+
+
+
+.synthetic-cart .modol-cart{
+  background-color:#F0F0F0;
+  margin-left: 20px;
+  padding: 10px;
+  
+}
+.synthetic-cart .modol-cart .oder_t .oder_t-button{
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.synthetic-cart .modol-cart .oder_t .oder_t-button button {
+  background-color: #ffc107;
+  width: 100%;
+  border: none;
+  height: 30px;
+  
+} 
+.synthetic-cart .modol-cart .oder_t .oder_t-button button:hover{
+  background-color: #dcb43e;
+}
+
+

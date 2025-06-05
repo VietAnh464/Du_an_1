@@ -1,0 +1,167 @@
+
+/* .box_comment{
+    height: 400px;
+    background-color: blue;
+    border: 1px solid black;
+} */
+
+.product-content{
+    margin-top: 30px;
+}
+
+.product-content-left{
+    /* flex: 1; */
+    width: 100%;
+    /* display: flex; */
+    margin-top: 40px;
+    
+}
+/* .product-content-left-big-img{
+    width: 80%;
+  
+    justify-content: space-between;
+
+} */
+.product-content-left-big-img img{
+    width: 150%;
+    height: 100%;
+}
+.product-content-left-smail-img{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.product-content-left-smail-img img{
+    margin: 10px; /* Khoảng cách giữa các hình ảnh nhỏ */
+    width: 100%;
+    height: 110%;
+    margin-top: 1px;
+}
+
+.product-content-right{
+    flex: 1;
+    width: 50%;
+    margin-left: 150px;
+}
+.product-content-right-product-name h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin-top: 40px;
+}
+h2{
+    margin: 0 0 20px 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product-content-right-product-name p{
+    color: #cccccc;
+    font-size: 12px;
+}
+.product-content-right-product-price{
+    margin: 12px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product-content-right-product-color-imgs{
+    display: flex;
+}
+.product-content-right-product-color-img{
+   height: 40px;
+   width: 40px;
+   border: 1px solid #F8F8FF;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 20px;
+}
+.product-content-right-product-color-img:hover{
+    border: 1px solid black;
+}
+.product-content-right-product-size span{
+    display: inline-block;
+    padding: 3px 6px;
+    border: none;
+    margin: -10px 10px 20px 0;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    width: 40px;
+    background-color: #F8F8FF;
+}
+.product-content-right-product-size span p{
+    font-size: 15px;
+    text-align: center;
+}
+.product-content-right-product-size span:hover{
+    background-color: #EEE8AA;
+    color: #F8F8FF;
+}
+.quantity{
+    display: flex;
+   
+}
+.quantity input{
+    width: 40px;
+    height: 24px;
+    margin: 0 10px;
+}
+.product-content-right-product-button button{
+    width: 400px;
+    height: 40px;
+    display: block;
+    margin: 20px 0 12px;
+    transition: all 0.3s ease;
+}
+.product-content-right-product-button button:first-child{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #cccccc;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.product-content-right-product-button button:first-child:hover{
+    background-color: black;
+    color: white;
+}
+.product-content-right-product-button button:last-child{
+    border: 2px solid #BF8A49;
+    color: #BF8A49;
+    background-color: #ffff;
+    cursor: pointer;
+}
+.product-content-right-product-icon{
+    display: block;
+}
+.product-content-right-product-icon-item i{
+    font-size: 12px;
+    margin-right: 6px;
+}
+.font-p{
+    padding: 20px 55px 0 0;
+}
+.font2-p{
+    padding-top: 5px;
+}
+.product-content-right-product-icon-item p{
+    padding-top: 16px;
+}
+.product-content-left-bottom{
+    padding-top: 250px;
+}
+.submit-css{
+    background-color: rgb(255, 204, 37);
+    border: none;
+    height: 40px;
+    width: 320px;
+    margin-bottom: 10px;
+}
+.fa-shopping-cart{
+    margin-left: -260px;
+    padding-top: 10px;
+}
+
+
